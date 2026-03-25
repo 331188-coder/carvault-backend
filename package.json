@@ -1,0 +1,28 @@
+{
+  "name": "carvault-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/331188-coder/carvault-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/331188-coder/carvault-backend/issues"
+  },
+  "homepage": "https://github.com/331188-coder/carvault-backend#readme",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "stripe": "^20.4.1"
+  }
+}
